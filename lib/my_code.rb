@@ -10,5 +10,6 @@ end
 
 def reduce(source_array, start =0)
   i = 0
+  sum = start
   
 end
