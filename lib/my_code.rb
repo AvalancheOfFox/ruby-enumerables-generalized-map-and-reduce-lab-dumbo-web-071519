@@ -1,10 +1,10 @@
 def my_map(source_array)
-  newArr = []
+  new = []
   i = 0
   while i < source_array.length do
-    newArr.push( yield(source_array[i]) )    
+    new.push( yield(source_array[i]) )    
     i += 1
   end
-  return newArr
+  return new
 end
 
