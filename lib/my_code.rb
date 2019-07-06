@@ -15,7 +15,7 @@ def reduce(source_array, start =0)
     if source_array[i] == nil 
       sum = false
     end
-    
+    sum = yield(source_array[i], start =0)
     i += 1
   end
   sum
